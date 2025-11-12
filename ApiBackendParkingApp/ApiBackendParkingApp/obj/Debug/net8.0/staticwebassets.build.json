@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3KnSMoQt95RUPCN6gZavUJIcqkLq5kuSNLfmDJdEuXY=",
+  "Source": "ApiBackendParkingApp",
+  "BasePath": "_content/ApiBackendParkingApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

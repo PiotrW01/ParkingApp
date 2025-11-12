@@ -1,0 +1,64 @@
+[
+  {
+    "ContainingType": "ApiBackendParkingApp.Controllers.ParkingLotController",
+    "Method": "AddReservation",
+    "RelativePath": "api/ParkingLot/AddNewReservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newReservation",
+        "Type": "ApiBackendParkingApp.Models.DTO.ParkingLotModelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBackendParkingApp.Controllers.ParkingLotController",
+    "Method": "GetAllParkingSpaces",
+    "RelativePath": "api/ParkingLot/AllParkingSpaces",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBackendParkingApp.Controllers.ParkingLotController",
+    "Method": "GetAllReservation",
+    "RelativePath": "api/ParkingLot/AllReservation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBackendParkingApp.Controllers.ParkingLotController",
+    "Method": "GetSectors",
+    "RelativePath": "api/ParkingLot/AllSectors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiBackendParkingApp.Controllers.ParkingLotController",
+    "Method": "DeleteReservation",
+    "RelativePath": "api/ParkingLot/CancelResevation",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resevationToCancel",
+        "Type": "ApiBackendParkingApp.Models.DTO.ParkingLotModelDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,25 @@
+.spot {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 10px;
+    background-color: #2f3136;
+    color:#d5d8db;
+}
+
+.spot:hover:not(.selected) {
+    background-color: #34e718;
+}
+
+.selected{
+    background-color: #287e29;
+}
+
+img {
+    width: 60px;
+}

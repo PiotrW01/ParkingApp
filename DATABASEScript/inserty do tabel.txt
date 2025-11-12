@@ -1,0 +1,27 @@
+SET IDENTITY_INSERT dbo.Sectors ON 
+INSERT dbo.Sectors (Sector_ID, Sector_Name) VALUES (1, 'S1')
+INSERT dbo.Sectors (Sector_ID, Sector_Name) VALUES (2, 'S2')
+SET IDENTITY_INSERT dbo.Sectors OFF
+
+SET IDENTITY_INSERT [dbo].[Places] ON 
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (1, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (2, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (3, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (4, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (5, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (6, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (7, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (8, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (9, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (10, 1)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (11, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (12, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (13, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (14, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (15, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (16, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (17, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (18, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (19, 2)
+INSERT [dbo].[Places] ([Place_Number], [Sector_ID]) VALUES (20, 2)
+SET IDENTITY_INSERT [dbo].[Places] OFF

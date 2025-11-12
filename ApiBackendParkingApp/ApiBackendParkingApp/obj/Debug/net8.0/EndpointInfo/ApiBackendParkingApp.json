@@ -1,0 +1,121 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ApiBackendParkingApp",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ParkingLot/AllParkingSpaces": {
+      "get": {
+        "tags": [
+          "ParkingLot"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ParkingLot/AllSectors": {
+      "get": {
+        "tags": [
+          "ParkingLot"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ParkingLot/AllReservation": {
+      "get": {
+        "tags": [
+          "ParkingLot"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ParkingLot/AddNewReservation": {
+      "post": {
+        "tags": [
+          "ParkingLot"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParkingLotModelDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ParkingLot/CancelResevation": {
+      "delete": {
+        "tags": [
+          "ParkingLot"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParkingLotModelDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ParkingLotModelDTO": {
+        "type": "object",
+        "properties": {
+          "parking_Lot_ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "license_Plate": {
+            "type": "string",
+            "nullable": true
+          },
+          "start_Time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "end_Time": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "place_Number": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "clientEmail": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
